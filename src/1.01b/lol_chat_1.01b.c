@@ -52,7 +52,7 @@
 
 /* including needed header files */
 
-include "notify.h" // notify message form
+#include "notify.h" // notify message form
 #include "plugin.h" // required header file
 #include "version.h" // version managing
 #include "blist.h" // buddy list managing
