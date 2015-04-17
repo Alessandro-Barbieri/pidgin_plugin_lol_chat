@@ -83,7 +83,7 @@ static void gtk_buddy_tooltip(PurpleBlistNode *node, GString *text, gboolean ful
 	{
 		PurpleBuddy *b = (PurpleBuddy *)node;
 		
-		if(strstr(b->name, "pvp.net")) // ONLY @pve.net xmpp active
+		if(strstr(b->name, "pvp.net")) // ONLY @pvp.net xmpp active
 		{
 
 			#ifdef _DEBUG
