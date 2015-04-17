@@ -1,4 +1,4 @@
-//#define _DEBUG // Untag this line, if you want debug this plugin.
+#define _DEBUG // Untag this line, if you want debug this plugin.
 /*
  * ====================================================================================
  *
@@ -25,6 +25,8 @@
 /* including glib.h for gboolean type */
 #include <glib.h>
 
+#include <string.h>
+
 /* preveting compiler errors */
 #ifndef G_GNUC_NULL_TERMINATED
 # if __GNUC__ >= 4
@@ -44,13 +46,13 @@
 #define LC_PLUGIN_NAME "League of Legends Chat"
 #define LC_PLUGIN_VERSION "1.01b"
 #define LC_PLUGIN_SUMMARY "League of Legends Chat Plugin"
-#define LC_PLUGIN_DESCRIPTION N_("League of Legends Chatting Plugin.\nThis plugin makes User infomation more comport.")
+#define LC_PLUGIN_DESCRIPTION "League of Legends Chatting Plugin.\nThis plugin makes User infomation more comfort."
 #define LC_PLUGIN_AUTHOR "LunaticHarmony <munhyunsu@gmail.com>"
 #define LC_PLUGIN_HOMEPAGE "http://www.facebook.com/munhyunsu"
 
 /* including needed header files */
-#include "internal.h" // string type definition
-#include "notify.h" // notify message form
+
+include "notify.h" // notify message form
 #include "plugin.h" // required header file
 #include "version.h" // version managing
 #include "blist.h" // buddy list managing
