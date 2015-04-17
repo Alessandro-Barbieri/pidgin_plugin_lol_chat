@@ -9,7 +9,7 @@
  *        Version:  1.01b
  *        Created:  04/14/2013 10:02:25 AM
  *       Revision:  0.1 - 1.0 - 1.01 - 1.01a - 1.01b
- *       Compiler:  gcc
+ *       Compiler:  gcc,clang
  *
  *         Author:  Mun Hyun Su (LunaticHarmony), munhyunsu@gmail.com, http://www.facebook.com/munhyunsu
  *   Organization:  C. N. U. Computer Science
