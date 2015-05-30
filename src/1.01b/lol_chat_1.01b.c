@@ -1,4 +1,3 @@
-#define _DEBUG // Untag this line, if you want debug this plugin.
 /*
  * ====================================================================================
  *
@@ -17,9 +16,10 @@
  * =====================================================================================
  */
 /** include and define **/
+#define _DEBUG // Untag this line, if you want debug this plugin.
 /* incluing Gnome Library */
 #ifdef HAVE_CONFIG_H
-# include <config.h>
+	#include <config.h>
 #endif
 
 /* including glib.h for gboolean type */
@@ -29,16 +29,16 @@
 
 /* preveting compiler errors */
 #ifndef G_GNUC_NULL_TERMINATED
-# if __GNUC__ >= 4
-#  define G_GNUC_NULL_TERMINATED __attribute__((__sentinel__))
-# else
-#  define G_GNUC_NULL_TERMINATED
-# endif
+	#if __GNUC__ >= 4
+		#define G_GNUC_NULL_TERMINATED __attribute__((__sentinel__))
+	#else
+		#define G_GNUC_NULL_TERMINATED
+	#endif
 #endif
 
 /* required definition of PURPLE_PLUGINS for pidgin plugin*/
 #ifndef PURPLE_PLUGINS
-# define PURPLE_PLUGINS
+	#define PURPLE_PLUGINS
 #endif
 
 /* define User-Macro */
@@ -60,12 +60,12 @@
 
 /* debug mode */
 #ifdef _DEBUG
-# include "debug.h"
+	#include "debug.h"
 #endif
 
 /* type definition */
 
-/* Grobal Variable */
+/* Global Variable */
 
 /* Signal Handler */
 /* Handle Generated "draw-tooltip" signal */
