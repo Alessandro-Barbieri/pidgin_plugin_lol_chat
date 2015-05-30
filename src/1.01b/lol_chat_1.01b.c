@@ -44,7 +44,7 @@
 /* define User-Macro */
 #define LC_PLUGIN_ID "core-luha-lol_chat"
 #define LC_PLUGIN_NAME "League of Legends Chat"
-#define LC_PLUGIN_VERSION "1.01b"
+#define LC_PLUGIN_VERSION "1.01c"
 #define LC_PLUGIN_SUMMARY "League of Legends Chat Plugin"
 #define LC_PLUGIN_DESCRIPTION "League of Legends Chatting Plugin.\nThis plugin makes User infomation more comfort."
 #define LC_PLUGIN_AUTHOR "LunaticHarmony <munhyunsu@gmail.com>"
