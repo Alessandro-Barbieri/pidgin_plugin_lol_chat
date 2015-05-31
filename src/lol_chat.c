@@ -16,7 +16,7 @@
  * =====================================================================================
  */
 /** include and define **/
-#define _DEBUG // Untag this line, if you want debug this plugin.
+//#define _DEBUG // Uncomment this line, if you want debug this plugin.
 /* including Gnome Library */
 #ifdef HAVE_CONFIG_H
 	#include <config.h>
