@@ -17,7 +17,7 @@
  */
 /** include and define **/
 #define _DEBUG // Untag this line, if you want debug this plugin.
-/* incluing Gnome Library */
+/* including Gnome Library */
 #ifdef HAVE_CONFIG_H
 	#include <config.h>
 #endif
@@ -27,7 +27,7 @@
 
 #include <string.h>
 
-/* preveting compiler errors */
+/* preventing compiler errors */
 #ifndef G_GNUC_NULL_TERMINATED
 	#if __GNUC__ >= 4
 		#define G_GNUC_NULL_TERMINATED __attribute__((__sentinel__))
@@ -393,7 +393,7 @@ static gboolean plugin_unload(PurplePlugin *plugin)
 	return TRUE;
 }
 
-/* MUST IMPLEMENTE plugin_initilize */
+/* MUST IMPLEMENTED plugin_initilize */
 static void init_plugin(PurplePlugin *plugin)
 {
 }
